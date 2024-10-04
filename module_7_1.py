@@ -1,4 +1,4 @@
-with open('products.txt', 'a') as an_alias_for_it:
+with open('products.txt', 'a') as an_alias_for_it:  # Создаем пустой текстовый файл с параметром "добавление"
     pass
 
 
@@ -14,7 +14,7 @@ class Product:
 
 
 class Shop:
-    # open('product.txt', 'r')
+  
 
     def __init__(self):
         self._filename = 'products.txt'  # Имя файла для хранения продуктов
